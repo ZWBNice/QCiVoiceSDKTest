@@ -1,0 +1,6 @@
+framework module QCiVoiceSDK {
+  umbrella header "QCiVoiceSDK.h"
+
+  export *
+  module * { export * }
+}
