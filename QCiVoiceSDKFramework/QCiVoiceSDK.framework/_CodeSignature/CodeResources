@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YcA8lTiFnayg9cKgTJed6q+vl8o=
+		d4mVohUC73aBD0x2QjKrBMc40XQ=
 		</data>
 		<key>Headers/CorpizeADPlayInfo.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/CorpizeAudioExpressFeedConfig.h</key>
 		<data>
-		zPcJotGZBZgPh2XHgxJtDcBegWI=
+		AXBU4S5kasl4ouEUnJfshttKvK8=
 		</data>
 		<key>Headers/CorpizeAudioExpressFeedView.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/QCiVoiceSDK.h</key>
 		<data>
-		XgmR844TZOOKjAQn4o2dS84psVw=
+		KjB6U0IBuS5LeTlDUncxXr3eLFE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -47,11 +47,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YcA8lTiFnayg9cKgTJed6q+vl8o=
+			d4mVohUC73aBD0x2QjKrBMc40XQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			h/0vCoFyVda0ZwZ8dxZS9cl4RpZotrXn/B29PhGb6xY=
+			h19Rtk1ax4rryJTJgHJ6sREQqBznv2TtLwhKUJQtteQ=
 			</data>
 		</dict>
 		<key>Headers/CorpizeADPlayInfo.h</key>
@@ -80,11 +80,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zPcJotGZBZgPh2XHgxJtDcBegWI=
+			AXBU4S5kasl4ouEUnJfshttKvK8=
 			</data>
 			<key>hash2</key>
 			<data>
-			3AJOXNTeCe55xMyYs7e82x/iQGghm+kScxqTAQ0pMC4=
+			hgX4ZEiedIXYbQoTQZube3MyWtAcYV+ukkeShpIWLxA=
 			</data>
 		</dict>
 		<key>Headers/CorpizeAudioExpressFeedView.h</key>
@@ -113,11 +113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XgmR844TZOOKjAQn4o2dS84psVw=
+			KjB6U0IBuS5LeTlDUncxXr3eLFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			0laBvAQGiNB3fQhcVVkIUHAyPe6MLXY3mLVfwrcHM18=
+			nEhgGXpXE9EEeWZNcFLk0NQHawH7t3PaCbAtzbJM5d4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

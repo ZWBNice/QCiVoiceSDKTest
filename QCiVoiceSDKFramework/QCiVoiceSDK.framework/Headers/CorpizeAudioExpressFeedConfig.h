@@ -44,7 +44,7 @@ static inline ConfigMargin  ConfigMarginMake (CGFloat top,CGFloat left, CGFloat 
 //标题距离整个广告 左 右 上 边距
 @property(nonatomic,assign) ConfigMargin titleMargin;
 //标题字体
-@property(nonatomic,assign)UIFont *titleFont;
+@property(nonatomic,strong)UIFont *titleFont;
 //标题字体颜色
 @property(nonatomic,strong)UIColor *titleTextColor;
 //标题最多行数，默认1行

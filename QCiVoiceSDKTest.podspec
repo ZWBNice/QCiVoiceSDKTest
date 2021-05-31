@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "QCiVoiceSDK"
-  spec.version      = "1.0.5"
+  spec.name         = "QCiVoiceSDKTest"
+  spec.version      = "1.0.6"
   spec.summary      = "QCiVoiceSDK."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-QCiVoiceSDK
+   QCiVoiceSDK
                    DESC
 
   spec.homepage     = "https://github.com/ZWBNice/QCiVoiceSDKTest"
@@ -39,7 +39,7 @@ QCiVoiceSDK
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  #spec.license      = "MIT (example)"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,8 +80,7 @@ QCiVoiceSDK
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ZWBNice/QCiVoiceSDKTest.git", :tag => "{spec.version}" }
-
+  spec.source = { :git => "https://github.com/ZWBNice/QCiVoiceSDKTest.git",:tag =>"v#{spec.version}"}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -131,9 +130,13 @@ QCiVoiceSDK
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+  spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+  spec.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end

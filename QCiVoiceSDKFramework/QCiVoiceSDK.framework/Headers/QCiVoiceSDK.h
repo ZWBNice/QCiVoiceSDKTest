@@ -12,7 +12,6 @@
 #import "CorpizeUserPlayInfo.h"
 #import "CorpizeADPlayInfo.h"
 
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QCiVoiceSDK : NSObject
@@ -24,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param isOpen YES代表打开，No代表关闭 默认关闭
  */
 +(void)openLog:(BOOL)isOpen;
+
+/// 获取SDK版本号
++(NSString *)getVersion;
 
 @end
 
